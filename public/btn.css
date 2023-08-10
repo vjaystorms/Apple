@@ -1,0 +1,47 @@
+:root{
+  --clr-light:white;
+  --clr-med:#e1e1e1;
+  --clr-dark:#90a4ae;
+  --clr-dark-heavy:#848484;
+}
+.aTag{
+  font-size: 1.05em;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  color: #808080;
+}
+.aTag-arrow{
+    color: #808080
+}
+.aTag:hover{
+  color: #555555;
+}
+.aTag-arrow:hover{
+  color: #555555;
+}
+.btn-1{
+  width:13em;
+  height: 4em;
+  border-radius: 5em;
+  border: none;
+  outline: none;
+  background:var(--clr-med);
+  box-shadow:
+  -3px -3px 7px var(--clr-light),
+  3px 3px 8px var(--clr-dark),
+  inset -3px -3px 7px var(--clr-light),
+  inset 3px 3px 10px var(--clr-dark);
+  color: var(--clr-dark-heavy);
+}
+.btn-arrow{
+  width:8em;
+  height: 8em;
+  border-radius: 4em;
+      margin: 2em 0;
+}
+.btn-1:active{
+  box-shadow:
+  -3px -3px 7px var(--clr-light),
+  3px 3px 8px var(--clr-dark),
+}
